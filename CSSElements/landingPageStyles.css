@@ -1,0 +1,100 @@
+#title {
+  line-height: 21px;
+  flex-direction: column;
+}
+
+#subscriptionButton {
+  padding: 9px;
+  border-radius: 16px;
+  border: 2px solid rgb(3, 57, 235);
+}
+
+#subscriptionButton:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(3, 57, 235);
+}
+
+body {
+  color: rgb(255, 255, 255);
+  background-color: rgb(36, 36, 36);
+  font-family: poppinsregular;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+h1 {
+  font-weight: 180px;
+}
+
+h2 {
+  line-height: 9px;
+  font-size: 50px;
+  font-family: poppinsmedium;
+}
+
+header {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+main {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+}
+
+p {
+  max-width: 490px;
+  font-family: poppinslight;
+  line-height: 18px;
+}
+
+li {
+  margin: 18px;
+  display: inline-block;
+}
+
+a {
+  color: rgb(255, 255, 255);
+}
+
+a:hover {
+  transition: 0.3s all;
+  color: rgb(3, 57, 235);
+}
+
+form {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+}
+
+form [type="submit"]{
+    color: rgb(255,255,255);
+    background-color: rgb(3, 57, 235);
+    text-align: center;
+    width: 55%;
+    height: 60px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+form [type="submit"]:hover{
+    cursor: pointer;
+}
+
+span {
+  color: rgb(3, 57, 235);
+}
+
+input{
+    height: 18px;
+    border-radius: 21px;
+    border-color: rgb(3,57,235);
+    border-width: 4px;
+    padding: 16px;
+    margin-top: 18px;
+    font-size: 14px;
+}
